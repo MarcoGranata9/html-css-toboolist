@@ -65,13 +65,18 @@ main {
 .list-container {
     background-color: white;
     padding: 30px 30px;
-    
 }
 
 /* New list */
 .notype-list {
     list-style-type: none;
+    padding: 6px;
+    
 }
+
+li:not(:last-child) { 
+    margin-bottom: 4px;  
+ }
 
 .list-title {
     font-size: x-large;
@@ -90,5 +95,29 @@ main {
     border-radius: 7px;
 }
 /* /New list */
+
+/* Today list */
+.violet {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #74c7b3;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+/* /Today list */
+
+/* Upcoming list */
+.pink {
+    background-color: #d863a1;
+}
+
+.green2 {
+    background-color: #b0c926;
+}
+/* /Upcoming list */
 
 /* /LISTS */
