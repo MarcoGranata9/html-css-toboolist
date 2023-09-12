@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+}
+
+.logo {
+    vertical-align: middle;
+    ;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
