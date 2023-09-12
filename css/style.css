@@ -60,3 +60,35 @@ main {
     border-color: #e0e3e6;
 }
 /* /Button bar */
+
+/* LISTS */
+.list-container {
+    background-color: white;
+    padding: 30px 30px;
+    
+}
+
+/* New list */
+.notype-list {
+    list-style-type: none;
+}
+
+.list-title {
+    font-size: x-large;
+    font-weight: bald;
+}
+
+.checkmark{
+    color: #74c7b3;
+}
+
+.badge {
+    background-color: #47adf1;
+    font-size: x-small;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+/* /New list */
+
+/* /LISTS */
