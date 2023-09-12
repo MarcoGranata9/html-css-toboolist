@@ -7,19 +7,56 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
 }
 
 /* HEADER */
 header {
     padding: 20px;
+    background-color: white;
 }
 
 .logo {
     vertical-align: middle;
-    ;
 }
 
 .title {
     display: inline-block;
     vertical-align: middle;
 }
+/* /HEADER */
+
+/* MAIN */
+main {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Button bar */
+.button-bar {
+    padding: 20px 30px;
+    background-color: white;
+    margin-bottom: 3px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.b-task {
+    background-color: #47adf1;
+    color: white;
+    border-width: 0;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.b-section {
+    color: #e0e3e6;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #e0e3e6;
+}
+/* /Button bar */
